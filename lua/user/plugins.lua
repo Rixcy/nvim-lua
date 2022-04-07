@@ -7,4 +7,9 @@ return require('packer').startup(function()
 
   -- Post-install/update hook with neovim command
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+
+  use({
+    "catppuccin/nvim",
+    as = "catppuccin"
+  })
 end)
