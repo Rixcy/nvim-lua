@@ -12,4 +12,6 @@ return require('packer').startup(function()
     "catppuccin/nvim",
     as = "catppuccin"
   })
+
+  use 'github/copilot.vim'
 end)
