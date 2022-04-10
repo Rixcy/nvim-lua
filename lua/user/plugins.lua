@@ -34,5 +34,7 @@ require "paq" {
     "andymass/vim-matchup"; -- extends % to work on more things
 
     "tpope/vim-abolish"; -- substitute / abbreviate copy
+
+    "phaazon/hop.nvim"; -- similar to easymotion, motions within files
 }
 

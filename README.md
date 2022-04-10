@@ -28,4 +28,5 @@ The [alpha](https://github.com/goolord/alpha-nvim) plugin is used for a replacem
 - [FixCursorHold.nvim](https://github.com/antoinemadec/FixCursorHold.nvim) - Improved cursor hold performance
 - [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace) - Make trailing/leading whitespace obvious
 - [vim-matchup](https://github.com/andymass/vim-matchup) - Extends % to work on more things
+- [hop.nvim](https://github.com/phaazon/hop.nvim) <sup>([mappings](https://github.com/Rixcy/nvim-lua/blob/main/lua/user/mappings/hop.lua))</sup> - Similar to [easymotion](https://github.com/easymotion/vim-easymotion), used for hopping within a file
 

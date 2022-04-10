@@ -1,4 +1,5 @@
 require("user.mappings.utils")
+require("user.mappings.hop")
 
 -- Modes
 --   normal_mode = "n",
