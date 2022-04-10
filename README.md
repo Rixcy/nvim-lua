@@ -16,7 +16,7 @@ The [alpha](https://github.com/goolord/alpha-nvim) plugin is used for a replacem
 - [abolish](https://github.com/tpope/vim-abolish) - Abbreviate / substitute copy
 - [commentary](https://github.com/tpope/vim-commentary) <sup>([mappings](https://github.com/Rixcy/nvim-lua/blob/main/lua/user/mappings/commentary.lua))</sup> - Comment lines with `<leader>/`
 - [catppuccin](https://github.com/catppuccin/nvim) - Colour scheme
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Syntax tree parser
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) <sup>([config](https://github.com/Rixcy/nvim-lua/blob/main/lua/user/treesitter.lua))</sup> - Syntax tree parser
 - [copilot](https://github.com/github/copilot.vim) - AI pair programmer
 - [impatient](https://github.com/lewis6991/impatient.nvim) <sup>([config](https://github.com/Rixcy/nvim-lua/blob/main/lua/user/impatient.lua))</sup> - Faster loadup times
 - [splitjoin](https://github.com/AndrewRadev/splitjoin.vim) - Split/join lines with gS/gJ
