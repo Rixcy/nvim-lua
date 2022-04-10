@@ -1,6 +1,3 @@
-require("user.mappings.utils")
-require("user.mappings.hop")
-
 -- Modes
 --   normal_mode = "n",
 --   insert_mode = "i",
@@ -12,6 +9,11 @@ require("user.mappings.hop")
 -- Remap space as leader key
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+
+-- Separate config files
+require("user.mappings.utils")
+require("user.mappings.hop")
+require("user.mappings.commentary")
 
 -- Normal --
 
