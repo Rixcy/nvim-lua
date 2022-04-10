@@ -21,7 +21,7 @@ The [alpha](https://github.com/goolord/alpha-nvim) plugin is used for a replacem
 - [impatient](https://github.com/lewis6991/impatient.nvim) - Faster loadup times
 - [splitjoin](https://github.com/AndrewRadev/splitjoin.vim) - Split/join lines with gS/gJ
 - [targets](https://github.com/wellle/targets.vim) - Extra text objects like ci(
-- [vim-surround](https://github.com/tpope/vim-surround) - Surround with ysaw ysa" etc
+- [vim-surround](https://github.com/tpope/vim-surround) <sup>([config](https://github.com/Rixcy/nvim-lua/blob/main/lua/user/surround.lua))</sup> - Surround with ysaw ysa" etc
 - [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) - Web dev icons
 - [popup.nvim](https://github.com/nvim-lua/popup.nvim) - Popups
 - [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) - Useful lua functions
