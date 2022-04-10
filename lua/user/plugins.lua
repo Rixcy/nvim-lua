@@ -1,17 +1,12 @@
-return require('packer').startup(function()
-  -- Packer can manage itself
-  use 'wbthomason/packer.nvim'
+require "paq" {
+    "savq/paq-nvim";                  -- Let Paq manage itself
 
-  -- Plugins can have post-install/update hooks
-  use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install', cmd = 'MarkdownPreview'}
+    {"catppuccin/nvim", as = "catppuccin"};
 
-  -- Post-install/update hook with neovim command
-  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+    {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"};
 
-  use({
-    "catppuccin/nvim",
-    as = "catppuccin"
-  })
+    "github/copilot.vim";
 
-  use 'github/copilot.vim'
-end)
+    {"iamcco/markdown-preview.nvim", run = "cd app & yarn install", cmd = "MarkdownPreview"};
+}
+
