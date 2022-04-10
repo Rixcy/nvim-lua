@@ -1,12 +1,14 @@
 require "paq" {
-    "savq/paq-nvim";                  -- Let Paq manage itself
+    "savq/paq-nvim"; -- let Paq manage itself
 
-    {"catppuccin/nvim", as = "catppuccin"};
+    {"catppuccin/nvim", as = "catppuccin"}; -- theme
 
     {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"};
 
     "github/copilot.vim";
 
-    {"iamcco/markdown-preview.nvim", run = "cd app & yarn install", cmd = "MarkdownPreview"};
+    "goolord/alpha-nvim"; -- start screen
+
+    {"iamcco/markdown-preview.nvim", run = "cd app & yarn install", cmd = "MarkdownPreview"}; -- doesn't work atm
 }
 
