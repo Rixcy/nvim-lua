@@ -32,5 +32,7 @@ require "paq" {
     "ntpeters/vim-better-whitespace"; -- make whitespace obvious
 
     "andymass/vim-matchup"; -- extends % to work on more things
+
+    "tpope/vim-abolish"; -- substitute / abbreviate copy
 }
 
