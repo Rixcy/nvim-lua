@@ -36,5 +36,7 @@ require "paq" {
     "tpope/vim-abolish"; -- substitute / abbreviate copy
 
     "phaazon/hop.nvim"; -- similar to easymotion, motions within files
+
+    "nvim-telescope/telescope.nvim"; -- fuzzy finder
 }
 

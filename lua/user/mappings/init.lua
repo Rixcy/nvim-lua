@@ -14,6 +14,7 @@ vim.g.maplocalleader = " "
 require("user.mappings.utils")
 require("user.mappings.hop")
 require("user.mappings.commentary")
+require("user.mappings.telescope")
 
 -- Normal --
 
