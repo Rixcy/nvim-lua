@@ -18,7 +18,7 @@ The [alpha](https://github.com/goolord/alpha-nvim) plugin is used for a replacem
 - [catppuccin](https://github.com/catppuccin/nvim) - Colour scheme
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Syntax tree parser
 - [copilot](https://github.com/github/copilot.vim) - AI pair programmer
-- [impatient](https://github.com/lewis6991/impatient.nvim) - Faster loadup times
+- [impatient](https://github.com/lewis6991/impatient.nvim) <sup>([config](https://github.com/Rixcy/nvim-lua/blob/main/lua/user/impatient.lua))</sup> - Faster loadup times
 - [splitjoin](https://github.com/AndrewRadev/splitjoin.vim) - Split/join lines with gS/gJ
 - [targets](https://github.com/wellle/targets.vim) - Extra text objects like ci(
 - [vim-surround](https://github.com/tpope/vim-surround) <sup>([config](https://github.com/Rixcy/nvim-lua/blob/main/lua/user/surround.lua))</sup> - Surround with ysaw ysa" etc

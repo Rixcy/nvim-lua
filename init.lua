@@ -1,3 +1,4 @@
+require("user.impatient")
 require("user.mappings")
 require("user.alpha")
 require("user.plugins")
