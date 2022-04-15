@@ -38,5 +38,7 @@ require "paq" {
     "phaazon/hop.nvim"; -- similar to easymotion, motions within files
 
     "nvim-telescope/telescope.nvim"; -- fuzzy finder
+
+    {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}; -- fzf integration with telescope
 }
 
